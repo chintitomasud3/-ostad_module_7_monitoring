@@ -1,4 +1,4 @@
-name: SSH Connect_OSTAD
+name: ostad_monitoring
 
 on:
   push:
@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Beforessh
+      - name: Beforessh_runner_machine
         run: |
           ls -la
   
