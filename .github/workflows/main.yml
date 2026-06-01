@@ -40,4 +40,7 @@ jobs:
             uname -a
             whoami
             pwd
+            cd "/home/ubuntu/Front_end"
+            sudo cp index.html /var/www/html/
+            echo "Done deployment"
             
